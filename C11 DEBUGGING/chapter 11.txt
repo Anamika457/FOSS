@@ -1,0 +1,45 @@
+CHAPTER 11
+
+DEBUGGING
+
+
+
+1. spam= 9
+   assert spam>10
+
+
+2. eggs='HeLlo'
+   bacon='hELLo'
+   assert eggs.lower != bacon.lower
+
+
+3. assert False always results in an Assertion error.
+
+
+4. import logging
+   logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s -  %(levelname)s -  %(message)s')
+
+
+5. import logging
+   logging.basicConfig(filename='pgm_log.txt', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+
+
+6. debug, info, warning, error, critical are the five logging levels.
+
+
+7. logging.disable() function disables all logging messages in a program.
+
+
+8. Once debugging is done, it would be tedious work to remove all the print(). One might even delete important print statements accidentally.
+
+
+9. Step Over: execute the next line of code, similar to the Step In button. However, if the next line of code is a function call, the Step Over button will “step over” the code in the function. The function’s code will be executed at full speed, and the debugger will pause as soon as the function call returns
+   Step In: causes the debugger to execute the next line of code and then pause again. If the next line of code is a function call, the debugger will “step into” that function and jump to the first line of code of that function.
+   Step Out: causes the debugger to execute lines of code at full speed until it returns from the current function.
+
+
+10. After clicking continue statement the debugger stops when it reaches a breakpoint.
+
+
+11. A breakpoint is something that can be set on a particular line of code, the debugger pauses whenever the program execution reaches that line. 
+

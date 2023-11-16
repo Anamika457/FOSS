@@ -1,0 +1,30 @@
+CHAPTER FIVE
+
+DICTIONARIES AND STRUCTURING DATA
+
+
+
+1. dict={} represents an empty dictionary.
+
+2. d={'foo': 42}
+
+3. Lists are ordered collection of items whereas dictionaries are unordered.
+   Dictionaries also consist of key value pai which lists don't have.
+
+
+4. As spam dictionary doesn't have the key 'foo', Key Error is displayed.
+
+
+5. 'cat' in spam checks if a key 'cat' exists in the dictionary.
+   'cat' in spam.keys() also checks if 'cat' is a key.
+
+
+6. 'cat' in spam checks if a key 'cat' exists in the dictionary.
+   'cat' in spam.values() checks if 'cat' is a value present in the dictionary.
+
+
+7. spam.setdefault('color', 'black') is the shortcut.
+
+
+8. pprint module can be used pretty print dictionary values.
+   pprint() and pformat are the functions in pprint module to pretty print the values.

@@ -1,0 +1,75 @@
+CHAPTER FOUR 
+
+LISTS
+
+
+
+1. [] is an empty list.
+
+
+2. spam[2]='hello' can be used to assign the third value. 
+
+
+spam=['a','b','c','d']
+
+
+3. spam[int(int('3' * 2) // 11)] ----> 'd'
+
+
+4. spam[-1] ----> 'd'
+
+
+5. spam[:2] ----> ['a','b']
+
+
+bacon= [3.14, 'cat', 11, 'cat', True].
+
+
+6. bacon.index('cat') ----> 1
+
+
+7. bacon.append(99)
+   bacon= [3.14, 'cat', 11, 'cat', True, 99]
+
+
+8.  bacon.remove('cat')
+    bacon= [3.14, 11, 'cat', True, 99]
+
+
+9. The operators for list concatenation and list replication are + and *.
+
+
+10. append() adds element to the end of the list.
+    insert() adds element in aspecified index.
+
+
+11. del() and remove() can be used to remove elements from a list.
+
+
+12. Both list and string have indices. 
+    len(), slicing etc can be applied to both.
+    Concatenation and replication are common in both.
+    in and not in operators can be used.
+
+
+13. Lists are enclosed within [] and the elements are mutable.
+    Tuples are enclosed within () and values are immutable.
+
+
+14. Add a trailing comma afterwards.
+    eg: tuple=(42,)
+
+
+15. let tup=(1,2,3) and lst=[1,2,3]
+    To get tuple form of lst: tuple([1,2,3])
+    To get list form of tup: list[(1,2,3)]
+
+
+16. They contain references to the list values.
+
+
+17. copy.copy() is used to copy a list to another list.
+    copy.deepcopy() is used to copy a list that contain inner lists.
+    
+    
+

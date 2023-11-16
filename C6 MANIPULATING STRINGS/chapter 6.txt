@@ -1,0 +1,46 @@
+CHAPTER SIX 
+
+MANIPULATING STRINGS
+
+
+
+1. An escape character helps use characters that are otherwise impossible to put into a string.
+
+
+2. \t represnts tab and \n represnts newline (line break).
+
+
+3.  \ (backslash) can be put in a string by printing a raw string.
+   eg:
+   print(r'That is Elena'\s cat.') 
+   Output : That is Elena'\s cat.
+
+
+4. "Howl's Moving Castle" , the string starts with a " (double quotes) so python knows that it ends with "(double quotes) too. So the ' (single quote) is printed.
+
+
+5. '''(three single quotes) or """(three double quotes) can be used for this purpose.
+   Any quotes, tabs, or newlines in between the “triple quotes” are considered part of the string.
+   Python’s indentation rules for blocks do not apply to lines inside a multiline string.
+
+
+6. 'Hello, world!'[1]    ----> 'e'
+   'Hello, world!'[0:5]  ----> 'Hello'
+   'Hello, world!'[:5]   ----> 'Hello'
+   'Hello, world!'[3:]   ----> 'lo, world!'
+
+
+7. 'Hello'.upper()            ----> 'HELLO'
+   'Hello'.upper().isupper()  ----> True
+   'Hello'.upper().lower()    ----> 'hello'
+
+
+8. 'Remember, remember, the fifth of November.'.split() ----> ['Remember,', 'remember,', 'the', 'fifth', 'of', 'November.']
+   '-'.join('There can be only one.'.split())           ----> 'There-can-be-only-one.'
+
+
+9. rjust(), ljust(), centre() can be used to right-justify, left-justify, and center a string respectively.
+
+
+10. lstrip() and rstrip() can be used to trim whitespace characters from the beginning or end of a string respectively.
+

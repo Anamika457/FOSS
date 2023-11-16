@@ -1,0 +1,42 @@
+CHAPTER 9
+
+READING AND WRITING FILES
+
+
+
+1. A relative path is relative to the program’s current working directory.
+
+
+2. An absolute path always begins with the root folder.
+
+
+3. Path('C:/Users') / 'Al' evaluates to C:\Users\Al.
+
+
+4.  'C:/Users' / 'Al' results in an error, as / operator cannot be used to join two strings.
+
+
+5. os.cwd is used to get the current working directory and os.chdir() is used to change it.
+
+
+6. . gives the current working directory whereas .. gives the parent folder.
+
+
+7. In C:\bacon\eggs\spam.txt, 
+   dir name: spam.txt
+   base name: C:\bacon\eggs
+
+
+8. The three mode arguments that can be passed to the open() function are read, write and append.
+   read: open('file_path', 'r')
+   write: open('file_path', 'w')
+   append: open('file_path', 'a')
+
+9.  If an existing file is opened in write mode, it's contents are deleted and the file is treated as a new empty file.
+
+
+10. read() : read the entire contents of a file as a string value.
+    readlines() : to get a list of string values from the file, one string for each line of text. 
+
+
+11.  A shelf value resembles a dictionary.

@@ -1,0 +1,27 @@
+CHAPTER 8
+
+INPUT VALIDATION
+
+
+
+1. No, PyInputPlus does not come with the Python Standard Library. It needs to be installed separately using pip install.
+
+
+2. PyInputPlus is commonly imported with import pyinputplus as pyip because it is easier to type pyip instead of pyinputplus when a pyinputplus function is to be called.
+
+
+3. inputInt() takes only integer inputs.
+   inputFloat() takes only floating point numeric inputs.
+
+
+4. num = pyip.inputInt('Enter a number: ', min=0, max=99)
+
+
+5. allowRegexes and blockRegexes keyword takes list of regular expression strings to determine what the pyinputplus function will accept or reject as valid input.
+
+
+6. The function will raise RetryLimitException. 
+
+
+7. 'hello' is printed since that is given as the default value.
+

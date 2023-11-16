@@ -1,0 +1,18 @@
+CHAPTER 10
+
+ORGANIZING FILES
+
+
+
+1. shutil.copy(): copy a single file
+   shutil.copytree(): copy an entire folder and every folder and file contained in it.
+
+
+2. os. rename() function is used to rename files.
+
+
+3. send2trash : will move a file or folder to the recycle bin.
+   shutil :  will permanently delete files and folders.
+
+
+4. zipfile.ZipFile() function is equivalent to File objects’ open() method.
