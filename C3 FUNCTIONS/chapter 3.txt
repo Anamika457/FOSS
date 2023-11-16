@@ -1,0 +1,54 @@
+CHAPTER THREE 
+
+FUNCTIONS
+
+
+
+1. Functions are advantageous in the sense that repetition of code can be avoided resulting in a shorter and efficient program.
+
+
+2.  Code in a function executed when the function is called and not when defined.
+
+
+3. the def function_name() statement creates the function where 'function_name' is replaced by the name of the function.
+
+
+4. Function is the code that performs a particular task whereas a function call is what prompts the code inside the defined function to be executed.
+
+
+5. There is one global scope.
+   There can be multiple local scopes, creating a variable whenever a function is called.
+
+
+6. Local variables are destroyed once the function call returns.
+
+
+7. Retuen value is the value the function evaluates to. Yes, it can be part of an expression.
+
+
+8. If a function does not have a return statement, the return value is None.
+
+
+9. By using the global keyword inside the function, the variable can be made to refer to the global variable.
+
+
+10. None is a data type in itself.
+
+
+11. import areallyourpetsnamederic statement imports the module named areallyourpetsnamederic.
+
+
+12. The function bacon can be called by using spam.bacon() statement.
+
+
+13. A program can be prevented from crashing by using try and except statements. 
+
+
+14. The code that could have an error comes under the try clause. 
+    When code in the try clause has an error, the program execution moves to the code in the except clause.
+
+
+ 
+
+
+

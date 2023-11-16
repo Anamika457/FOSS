@@ -1,0 +1,95 @@
+CHAPTER TWO 
+
+FLOW CONTROL
+
+
+
+1. True and False are two values of data types.
+   These are keywords and should be written with the starting letter in uppercase and rest in lowercase. Also it should not be enclosed within quotes.
+
+
+2. and, or and not are the three Boolean operators.
+
+
+3. True and True   ----> True
+   True or True    ----> True
+   False or True   ----> True
+   True or False   ----> True
+   True and False  ----> False
+   False and True  ----> False
+   False or False  ----> False
+   False and False ----> False
+   not True        ----> False
+   not False       ----> True
+
+
+4. (5 > 4) and (3 == 5) evalutes to False.
+   not (5 > 4) evalutes to False.
+   (5 > 4) or (3 == 5) evalutes to True.
+   not ((5 > 4) or (3 == 5)) evaluates to False.
+   (True and True) and (True == False) evaluates to False.
+   (not False) or (not True) evaluates to True.
+
+
+5. <, >, >=, <=, ==, != are the six comparison operators used to compare values.
+
+
+6. The equal to operator is used to check if two values are equal and the assignment operator is used to assign a value to a variable.
+
+
+7. Conditions are a part of flow control statements. Conditions always evaluate to a Boolean value. The program will proceed based on whether the condition is true or false. 
+   Conditions are usually used when we need to check something and proceed accordengly based on the output of the condition.
+
+
+8. spam = 0
+   if spam == 10:
+   (1) print('eggs')
+       if spam > 5:
+      (2)  print('bacon')
+       else:
+      (3)  print('ham')
+       print('spam')
+   print('spam')
+
+   The 3 code blocks are marked as (1), (2) and (3).
+
+
+9. spam=int(input())
+   if spam==1:
+       print('Hello')
+    elif spam==2:
+       print('Howdy')
+    else:
+       print('Greetings!')
+
+
+10. Press CTRL-C or select Shell ▸ Restart Shell from IDLE’s menu to get oot of an infinite loop.
+
+
+11. break statement exits the loop.
+    When continue statement is encountered, the program execution jumps back to the beginning of the loop and the conditions are checked again.
+
+
+12. range(10) prints values from 0 to 9. The stop value is given as 10.
+    range(0, 10) also prints values from 0 to 9. But here start value 0 is also given.
+    range(0, 10, 1) also prints values from 0 to 9. But here along with start value 0, step value 1 is also given.
+
+13. for loop:
+
+    for i in range(1,11):
+        print(i)
+
+    while loop:
+    
+    i=1
+    while i<=10:
+        print(i)
+        i+=1
+
+
+14. import spam
+    spam.bacon()
+
+    The module spam is imported in the first line and thereafter the function inside module is called using the above syntax.
+
+

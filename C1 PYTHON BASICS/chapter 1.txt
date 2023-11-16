@@ -1,0 +1,48 @@
+CHAPTER ONE 
+
+PYTHON BASICS
+
+
+
+1. values:  'hello', -88.8, 5
+   operators:   +, -, /, *, 
+
+
+2. variable: spam
+   string: 'spam'
+
+
+3. integer, float and string are some data types.
+
+
+4. An expression is made up of values and operators.
+   Expressions evaluate down to a single value.
+
+
+5. Statement is for creating a variable and displaying values. 
+   An expression evaluates and some value is obtained as result.
+
+
+6. The variable bacon will contain the value 20 itself as value of bacon is not reassigned.
+
+
+7. 'spam' + 'spamspam' evaluates to: 'spamspamspam'
+   'spam' * 3 evaluates to: 'spamspamspam'
+
+
+8. Variable names can't begin with a number hence 100 is an invalid variable name.
+   But it can begin with _ or letters hence eggs is a valid variable name.
+
+
+9. The int(), float() and str() functions can be used to get the integer, floating-point number and string version of a value respectively.
+
+
+10. 'I have eaten ' + 99 + ' burritos.'
+    The above expression causes an error because only strings can be concated to strings. In the expression, 99 is of integer data type.
+    Integers can't be concated to string and hence TypeError is displayed.
+
+    The error can be fixed by converting the integer value to a string value in the expression. 
+    The corrected code:
+    'I have eaten ' + str(99) + ' burritos.'
+
+
